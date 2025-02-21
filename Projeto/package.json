@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "npx @tailwindcss/cli -i ./src/styles.css -o ./src/output.css --watch"
+    "build" : "tsc && npx tailwindcss -i ./src/styles.css -o ./dist/styles.css",
+    "start": "http-server"
   },
   "author": "isabelle lima",
   "license": "ISC",
