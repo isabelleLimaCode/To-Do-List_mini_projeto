@@ -41,7 +41,7 @@ class TodoApp {
             li.appendChild(title);
     
             const button = document.createElement('button');
-            button.className = "bg-red-500 text-white px-2 py-1 rounded cursor-pointer";
+            button.className = "bg-red-500 text-white px-2 py-1 rounded cursor-pointer ";
             button.textContent = "Deletar";
     
             button.addEventListener('click', () => this.remove(task.id));
