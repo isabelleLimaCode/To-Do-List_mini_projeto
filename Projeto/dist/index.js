@@ -22,7 +22,7 @@ class TodoApp {
         this.taskList.innerHTML = "";
         this.tasks.forEach((task) => {
             const li = document.createElement('li');
-            li.className = "flex w-[200px] border-solid border-[1px] rounded justify-between items-center p-2 mb-1";
+            li.className = "flex w-full border-solid border-[1px] rounded justify-between items-center p-2 mb-1";
             const title = document.createElement('p');
             title.textContent = task.title;
             li.appendChild(title);

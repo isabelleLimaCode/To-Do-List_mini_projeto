@@ -800,12 +800,6 @@
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
-  .w-\[100px\] {
-    width: 100px;
-  }
-  .w-\[200px\] {
-    width: 200px;
-  }
   .w-full {
     width: 100%;
   }
@@ -1770,6 +1764,9 @@
   }
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
+  }
+  .text-black {
+    color: var(--color-black);
   }
   .text-white {
     color: var(--color-white);
